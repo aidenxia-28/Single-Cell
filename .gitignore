@@ -1,0 +1,24 @@
+# raw data (download from GEO, see README) and pipeline outputs
+data/GSE159354_RAW/
+results/
+*.rds
+*.h5
+
+# figures and tables written by the scripts
+*.pdf
+*.png
+*.csv
+!docs/**/*.csv
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*_cache/
+*_files/
+notebooks/*.html
+
+# OS
+.DS_Store
+Thumbs.db
